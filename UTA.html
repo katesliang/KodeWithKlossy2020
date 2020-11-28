@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Questrial"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://cdn.glitch.com/929bb5f1-26dd-48d6-bb91-33e333f66861%2Ffavicon-32x32%5B1%5D.png?v=1593047938674"
+    />
+    <title>Diversity University</title>
+
+    <!-- import jquery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/colleges.css" />
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a class="active" href="index.html"
+        ><img
+          src="https://cdn.glitch.com/929bb5f1-26dd-48d6-bb91-33e333f66861%2FDU.png?v=1593028302250"
+          class="logo"
+      /></a>
+    </div>
+
+    <div class="top">
+      <h1 class="title">
+        The University of Texas at Arlington
+      </h1>
+      <p class="location">Arlington, Texas</p>
+      <a class="uni-link" href="https://www.uta.edu/">
+        University Website</a
+      >
+    </div>
+      <div class="ratings">
+        <h3 class="overall-rating">
+          Overall Ratings
+        </h3>
+        <p class="current-rating">
+          No ratings currently...be the first one!
+        </p>
+
+        <h3 class = "specific-rating-header">
+          Average Rating Amongst Each Minority Group
+        </h3>
+
+        <div class = "specific-ratings">
+          Female Students:
+          <p class="female-rating">No ratings currently...be the first one!</p>
+          <br />
+          LGBTQ+ Students:
+          <p class="lgbt-rating">No ratings currently...be the first one!</p>
+          <br />
+          Black Students:
+          <p class="black-rating">No ratings currently...be the first one!</p>
+          <br />
+          Hispanic and/or Latino Students:
+          <p class="hispanic-rating">
+            No ratings currently...be the first one!
+          </p>
+          <br />
+          Students with Disabilities:
+          <p class="disability-rating">
+            No ratings currently...be the first one!
+          </p>
+          <br />
+          Asian Students:
+          <p class="asian-rating">No ratings currently...be the first one!</p>
+          <br />
+          Native American / American Indian Students:
+          <p class="asian-rating">No ratings currently...be the first one!</p>
+          <br />
+          Non-Christian Religious Students:
+          <p class="asian-rating">No ratings currently...be the first one!</p>
+          <br />
+        </div>
+      </div>
+
+      <br>
+      <section class = "body">
+      <div class="write-review">
+        <h3>
+          Write Anonymous Review
+        </h3>
+        <form class="review-form">
+          <div class="minoritycheckbox" <form>
+            <label> Type(s) of minority student you identify as: </label> <br />
+            <ul>
+              <label> Female </label
+              ><input type="checkbox" class="female" />
+              <br />
+              <label> LGBTQ+ </label
+              ><input type="checkbox" class="lgbt" />
+              <br />
+              <label> Student with disability</label
+              ><input type="checkbox" class="disabilities" />
+              <br />
+              <label> Black </label
+              ><input type="checkbox" class="black" />
+              <br />
+              <label> Hispanic or Latino </label
+              ><input type="checkbox" class="hispanic" />
+              <br />
+              <label> Asian or Pacific Islander </label
+              ><input type="checkbox" class="asian" />
+              <br />
+              <label> Native American / American Indian </label>
+              <input type="checkbox" class="native" />
+              <br />
+              <label> Non-Christian Religion </label>
+              <input type="checkbox" class="religious" />
+              <br />
+            </ul>
+          </div>
+
+          <h3 class="overall">Overall Rating of University's Inclusion</h3>
+          <div class="starRating">
+            <input id="rating1" type="checkbox" value="1" />
+            <label for="rating1"> ☆</label>
+            <input id="rating2" type="checkbox" value="2" />
+            <label for="rating2"> ☆</label>
+            <input id="rating3" type="checkbox" value="3" />
+            <label for="rating3"> ☆</label>
+            <input id="rating4" type="checkbox" value="4" />
+            <label for="rating4"> ☆</label>
+            <input id="rating5" type="checkbox" value="5" />
+            <label for="rating5"> ☆</label>
+          </div>
+          <br />
+          <label> Review: </label>
+          <br>
+          <textarea class="reviewUTA" cols="35" rows="10"></textarea>
+          <br>
+          <label> Resources for other students: </label>
+          <br>
+          <textarea class="resourcesUTA" cols="35" rows="10"></textarea>
+          <br>
+          <label> Suggestions for improvement: </label>
+          <br>
+          <textarea class="suggestionsUTA" cols="35" rows="10"></textarea>
+          <br>
+          <input type="submit" class="submit-btn-UTA" />
+        </form>
+        <p class="hidden" id="confirmation">
+          Your review has been submitted! Thanks so much :)
+        </p>
+        <button class="hidden" id="go-back">
+          Submit another review!
+        </button>
+      </div>
+
+      <div></div>
+
+      <div class="rating">
+        <h3>
+          Reviews
+        </h3>
+      </div>
+    </section>
+  </body>
+</html>

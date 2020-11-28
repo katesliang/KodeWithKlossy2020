@@ -1,10 +1,37 @@
-# Kode With Klossy 2020
-This repository highlights some of the work I made as a Web Development Scholar during Kode with Klossy 2020 (June 17-28). During camp, I learned HTML, CSS, JavaScript, and the jQuery library using [Glitch](https://www.glitch.com) and [repl.it](https://www.repl.it). Each branch is a different project! Enjoy :) 
+Welcome to Glitch
+=================
 
-## Projects 
-1) **Travel Photo Gallery** - HTML, CSS
-2) **Alt Tiktok Quiz (Mini Project 3)** - HTML, CSS, JavaScript (jQuery)
-3) **Diversity University (Final Project)** - HTML, CSS, JavaScript (jQuery): An online platform that provides historically under-represented groups a safe place to leave an honest review about their university experience. 
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-## About Kode with Klossy
-Kode with Klossy "provides the opportunity for young women across the country, ages 13-18, to attend free two week bootcamps that introduce them to key computer science concepts and skills. Scholars collaborate with each other and with inspiring instructors to explore the limitless potential of code and computer science." Learn more [here](https://www.kodewithklossy.com). 
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+
+Find out more [about Glitch](https://glitch.com/about).
+
+
+Your Project
+------------
+
+### ← README.md
+
+That's this file, where you can tell people what your cool website does and how you built it.
+
+### ← index.html
+
+Where you'll write the content of your website. 
+
+### ← style.css
+
+CSS files add styling rules to your content.
+
+### ← script.js
+
+If you're feeling fancy you can add interactivity to your site with JavaScript.
+
+### ← assets
+
+Drag in `assets`, like images or music, to add them to your project
+
+Made by [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ
