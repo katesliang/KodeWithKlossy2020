@@ -1,5 +1,5 @@
 # Kode With Klossy 2020
-This repository represents a collection of work I made as a Web Development Scholar during Kode with Klossy 2020 (June 17-28). During camp, I learned HTML, CSS, JavaScript, and the jQuery library. Each branch is a different project!
+This repository highlights some of the work I made as a Web Development Scholar during Kode with Klossy 2020 (June 17-28). During camp, I learned HTML, CSS, JavaScript, and the jQuery library using [Glitch](https://www.glitch.com) and [repl.it](https://www.repl.it). Each branch is a different project! Enjoy :) 
 
 ## Projects 
 1) **Travel Photo Gallery** - HTML, CSS
